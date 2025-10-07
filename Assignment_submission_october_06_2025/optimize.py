@@ -19,7 +19,7 @@ def main():
 
     # Display results neatly
     for size, price in zip(new_sizes.flatten(), predictions):
-        print(f"🏠 Size: {int(size)} sqft → Predicted Price: ${price:,.2f}")
+        print(f"Size: {int(size)} sqft → Predicted Price: ${price:,.2f}")
 
 if __name__ == "__main__":
     main()
